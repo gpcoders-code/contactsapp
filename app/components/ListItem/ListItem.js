@@ -14,7 +14,7 @@ const ListItem = ({ contact, onPress }) => {
             <View style={styles.row}>
                 <Image
                     source={{ uri: contact.picture.thumbnail }}
-                    styl e={styles.avatar}
+                    style={styles.avatar}
                 />
                 <View>
                     <Text style={styles.name}>{name}</Text>
